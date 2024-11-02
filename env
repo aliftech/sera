@@ -1,0 +1,12 @@
+PORT=3000
+
+# Database Config
+HOST="localhost"
+USERNAME="your-username"
+PASSWORD="your-pass"
+DATABASE="your-db"
+
+# RabbitMQ
+RABBITMQ_URL='amqp://localhost'
+EMAIL_USER='your-email'
+EMAIL_PASS="your-pass"

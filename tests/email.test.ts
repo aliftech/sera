@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import request from 'supertest';
 import express, { Express } from 'express';
 import bodyParser from 'body-parser';
-import messageRouter from '../src/routers/messageRouter';
+import messageRouter from '../src/routers/messageRouter.ts';
 
 const app: Express = express();
 app.use(bodyParser.json());

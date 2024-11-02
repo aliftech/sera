@@ -11,6 +11,8 @@
         "emitDecoratorMetadata": true,
         "target": "esnext",
         "moduleResolution": "Node",
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
         "types": [
             "node",
             "mocha"
